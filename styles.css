@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #4E1A7E;
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF319A;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family:"Neon Vortex", "HP Simplified", "HP Simplified Jpan", "Cookie";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #ae127f;
+}
+
+#container{
+	display:flex;
+	flex-direction: row;
+	background-image: url("images/levon-vardanyan-sU-Vq1_9apE-unsplash.jpg");
+ 	justify-content:center;
+  	align-items: center;
+}
+
+img {
+  	border: 1px solid #ddd;
+ 	border-radius: 4px;
+ 	width: 300px;
+	align-items: center;
+	align-content: center;
+	
+}
+.appetizers{
+	background:rgba( 254, 217, 25, .6)
+	
+	
+}
+.meals{
+	background:rgba(20, 193, 200, .6)
+}
+
+.Desserts{
+	background: rgba( 255, 1, 167, .6)
+}
+
+a span{
+	display:none;
+}
+
+a:hover span{
+	display:block;
+	background-color:#FFFFFF;
+	border: 1px solid #000000;
+	top: 15px;
+	right:-20px;
+	width: 80px;
+	font-size: 90%;color:#000000;
+	
+	
+	
+}
+
